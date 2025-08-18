@@ -56,7 +56,17 @@ You *do not* need every single part on this board to make a game. The game you w
 - If you need RAM space, **add Group C components.** This will add 32 KB of RAM space.
 - If your game is larger than 2 MB and uses any amount of SRAM, **add Group D components.**
 
-## ROM Size Selection (SW1)
+### Bypass Solder Jumpers
+
+If your game is only 2 MB large, you will not need U3. There is a solder jumper inside the U3 footprint that needs to be bridged if this is the case.
+
+<img width="235" height="228" alt="image" src="https://github.com/user-attachments/assets/aa87a7dd-83f4-456b-b738-3f10394fd005" />
+
+Similarly, if your game does not use SRAM, you will not need U7 but you need to bridge the solder jumper instead.
+
+<img width="256" height="227" alt="image" src="https://github.com/user-attachments/assets/a0a02e0b-db57-4fa9-b0d8-2e91309fb8f2" />
+
+### ROM Size Selection (SW1)
 
 There is only one switch on this board for configuration purposes, and the setting you need to choose is pretty self-explanatory. You can either use an SPDT switch (part number shown in BOM below), or if you do not plan to reflash the board with a differently sized game in the future, you can hard-wire the selection. **This switch is only required to be configured if your board uses any amount of SRAM - ROM-only boards do not utilize this setting.**
 
@@ -68,7 +78,7 @@ In the image below, the "less than or equal to 2MB" option is selected in both c
 
 To accurately estimate the battery life, you must first solder the battery in, and then either program your game in the OSCR or power it on in a console.
 
-After that, measure the voltage across R1 using a multimeter in DC mV mode, touching the probes to the two test point pads on either side of R1. You should read something around 10 mV or less. If you are severely higher than 10 mV, like in the 100's of mV, then you have a problem on your board.
+After that, measure the voltage across R1 using a multimeter in DC mV mode, touching the probes to the two test point pads on either side of R1. You should read something around 1 mV or less. If you are severely higher than 1 mV, like in the 10's of mV, then you have a problem on your board.
 
 Once you have a suitable voltage, find the milliamp-hour rating of your selected battery (preferrably from a datasheet). For example, a Renata CR2032 battery is rated for 225 mAh.
 
@@ -76,7 +86,7 @@ Now to estimate battery life, take the voltage measurement in mV and the battery
 
 Time (years) = Resistance of R1 (ohms) * Battery capacity (mAh) / Voltage (mV) / 8760
 
-The factor of 8760 is for converting years to hours (24 hours in a day, 365 days in a year). The resistance of R1 is 10000 ohms. So for an example, if you measured 10 mV on R1 and are using a Renata CR2032, you would get 10000 * 225 / 10 / 8760 = **25.7 years.**
+The factor of 8760 is for converting years to hours (24 hours in a day, 365 days in a year). The resistance of R1 is 1000 ohms. So for an example, if you measured 1 mV on R1 and are using a Renata CR2032, you would get 1000 * 225 / 1 / 8760 = **25.7 years.**
 
 ## Bill of Materials (BOM)
 
