@@ -5723,6 +5723,12 @@
 		(uuid "0aee4463-da7b-4c30-80ba-36ebfd531310")
 	)
 	(junction
+		(at 77.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c6ded44-8f2a-40ae-860b-bafc34ed282b")
+	)
+	(junction
 		(at 154.94 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5943,6 +5949,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c07dd35c-2727-4b10-a52b-c487b46b68cb")
+	)
+	(junction
+		(at 95.25 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83f8343-583e-41fc-a0f9-d307cb548491")
 	)
 	(junction
 		(at 26.67 78.74)
@@ -7941,7 +7953,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 105.41 91.44)
+			(xy 90.17 91.44) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9899,6 +9911,16 @@
 		)
 		(uuid "7876c49a-3663-4776-882d-ec53bc308503")
 	)
+	(wire
+		(pts
+			(xy 95.25 91.44) (xy 105.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788e538a-daa0-4ca8-a610-c4ea31a280e3")
+	)
 	(bus
 		(pts
 			(xy 115.57 35.56) (xy 115.57 38.1)
@@ -11421,7 +11443,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 91.44) (xy 86.36 91.44)
+			(xy 77.47 91.44) (xy 82.55 91.44)
 		)
 		(stroke
 			(width 0)
@@ -14576,7 +14598,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 91.44 270)
+		(at 86.36 91.44 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14585,7 +14607,7 @@
 		(dnp no)
 		(uuid "129b60ec-db22-44a7-a7d1-2c9d59b14b45")
 		(property "Reference" "R1"
-			(at 90.17 86.614 90)
+			(at 86.36 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,7 +14615,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 90.17 88.646 90)
+			(at 86.36 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,7 +14623,7 @@
 			)
 		)
 		(property "Footprint" "Bucketmouse:R_0603_1608Metric_Boxed"
-			(at 90.17 93.218 90)
+			(at 86.36 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 91.44 0)
+			(at 86.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +14641,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 91.44 0)
+			(at 86.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14732,7 +14754,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "74HCT74"
 			(at 89.916 140.208 0)
 			(effects
 				(font
@@ -15131,7 +15153,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 25.4 176.53 90)
 			(effects
 				(font
@@ -15436,7 +15458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "74HCT74"
 			(at 49.53 180.34 90)
 			(effects
 				(font
@@ -15587,6 +15609,72 @@
 			(project "genesis_advanced_flash_1-0"
 				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f4e6bf-d336-480a-95ef-62a400ecf966")
+		(property "Reference" "TP4"
+			(at 95.25 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPB1,27"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Bucketmouse:TestPoint_Pad_D1.0mm"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daa5de3b-a945-4ac0-a524-898fd370e6e9")
+		)
+		(instances
+			(project "genesis_advanced_flash_1-1"
+				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16799,7 +16887,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 177.8 27.94 0)
 			(effects
 				(font
@@ -18752,7 +18840,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 119.38 186.69 0)
 			(effects
 				(font
@@ -19021,7 +19109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 172.212 96.52 0)
 			(effects
 				(font
@@ -19328,7 +19416,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 177.8 60.96 0)
 			(effects
 				(font
@@ -20304,7 +20392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de0c2e71-0fe5-47d0-b073-e196921dee75")
-		(property "Reference" "CC1"
+		(property "Reference" "CC"
 			(at 58.928 140.97 0)
 			(effects
 				(font
@@ -20385,7 +20473,7 @@
 		(instances
 			(project "Genesis_Advanced_1-0"
 				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
-					(reference "CC1")
+					(reference "CC")
 					(unit 1)
 				)
 			)
@@ -20770,7 +20858,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 127 159.004 0)
 			(effects
 				(font
@@ -21158,7 +21246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f09e24d2-2b32-4666-ba2c-f944707db201")
-		(property "Reference" "CB1"
+		(property "Reference" "CB"
 			(at 135.128 43.18 0)
 			(effects
 				(font
@@ -21239,7 +21327,7 @@
 		(instances
 			(project "Genesis_Advanced_1-0"
 				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
-					(reference "CB1")
+					(reference "CB")
 					(unit 1)
 				)
 			)
@@ -21264,7 +21352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "74HCT74"
 			(at 34.036 146.558 0)
 			(effects
 				(font
@@ -21547,6 +21635,72 @@
 			(project "genesis_advanced_flash_1-0"
 				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb253f42-f6bc-421e-a62f-b3511245422d")
+		(property "Reference" "TP3"
+			(at 77.47 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPB1,27"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Bucketmouse:TestPoint_Pad_D1.0mm"
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8cf86cd-e4bf-4f04-827d-f70f2eb1ae57")
+		)
+		(instances
+			(project "genesis_advanced_flash_1-1"
+				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
