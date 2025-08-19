@@ -72,13 +72,13 @@ There is only one switch on this board for configuration purposes, and the setti
 
 In the image below, the "less than or equal to 2MB" option is selected in both cases. The resistor on the right is a zero-ohm jumper (or you can use a solder blob).
 
-<img width="1677" height="591" alt="image" src="https://github.com/user-attachments/assets/6d95ec1e-3fe2-4619-aac6-531e41ad4f11" />
+<img width="1597" height="632" alt="image" src="https://github.com/user-attachments/assets/1ca78731-4d9a-4134-a979-2c00d1608bc3" />
 
 ## Estimating Battery Life
 
 To accurately estimate the battery life, you must first solder the battery in, and then either program your game in the OSCR or power it on in a console.
 
-After that, measure the voltage across R1 using a multimeter in DC mV mode, touching the probes to the two test point pads on either side of R1. You should read something around 1 mV or less. If you are severely higher than 1 mV, like in the 10's of mV, then you have a problem on your board.
+After that, measure the voltage across R1 (either on the part itself or on the + and - pads on the back of the board) using a multimeter in DC mV mode, touching the probes to the two test point pads on either side of R1. You should read something around 1 mV or less. If you are severely higher than 1 mV, like in the 10's of mV, then you have a problem on your board.
 
 Once you have a suitable voltage, find the milliamp-hour rating of your selected battery (preferrably from a datasheet). For example, a Renata CR2032 battery is rated for 225 mAh.
 
@@ -141,11 +141,16 @@ The following cart has *the maximum amount* of parts you would potentially need 
 
 Note: SW1 is optional and can be replaced with solder bridges or zero ohm resistors.
 
+## Adding LEDs
+
+There are 10 spots around the border of the board on the front and back for LEDs. This includes pads for an 0603 size resistor and 0603 size LED, powered by the 5V rail. Resistor and LED selection will vary based on your own preferences, so you will have to experiment with values yourself.
+
 ## Revision History
 
 ### v1.1 - Release
 
 - Fix LED resistor connections on the back of the board
+- Added test points for measuring battery current easier
 
 ### v1.0 - Alpha
 
