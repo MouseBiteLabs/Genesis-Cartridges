@@ -96,7 +96,7 @@ The component groups required for the build you want to make are detailed above.
 
 The following cart has *the maximum amount* of parts you would potentially need on a single board, plus a few extras of the passive components due to price breaks. You can remove the chips you don't need from the shopping cart before ordering, according to the component group assignments below.
 
-[to do: add mouser cart link]
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ea748d2d57
 
 ### Group A - 2 MB ROM, No RAM
 
@@ -104,7 +104,7 @@ The following cart has *the maximum amount* of parts you would potentially need 
 | --------- | ----------------- | ------- | ---------------- | ------------------------------------------------ |
 | C1        | 0.1uF             | 0603    | Capacitor (MLCC) | [https://mou.sr/3ENc15O](https://mou.sr/3ENc15O) |
 | CC        | 22uF              | 1206    | Capacitor (MLCC) | [https://mou.sr/4e4zShm](https://mou.sr/4e4zShm) |
-| U1        | M29F160           | TSOP-48 | Flash EEPROM     | [https://mou.sr/3MNWQ0b](https://mou.sr/3MNWQ0b) |
+| U1        | M29F160           | TSOP-48 | Flash EEPROM     | [https://mou.sr/3HIjb09](https://mou.sr/3HIjb09) |
 
 ### Group B - Adds 2 MB of ROM
 
@@ -112,7 +112,7 @@ The following cart has *the maximum amount* of parts you would potentially need 
 | --------- | ----------------- | -------- | ---------------- | ------------------------------------------------ |
 | C2        | 0.1uF             | 0603     | Capacitor (MLCC) | [https://mou.sr/3ENc15O](https://mou.sr/3ENc15O) |
 | C3        | 0.1uF             | 0603     | Capacitor (MLCC) | [https://mou.sr/3ENc15O](https://mou.sr/3ENc15O) |
-| U2        | M29F160           | TSOP-48  | Flash EEPROM     | [https://mou.sr/3MNWQ0b](https://mou.sr/3MNWQ0b) |
+| U2        | M29F160           | TSOP-48  | Flash EEPROM     | [https://mou.sr/3HIjb09](https://mou.sr/3HIjb09) |
 | U3        | 74HCT139          | TSSOP-16 | Decoder          | [https://mou.sr/4eqzppn](https://mou.sr/4eqzppn) |
 
 ### Group C - Adds 32 KB of RAM for games with 2 MB of ROM or less in size
