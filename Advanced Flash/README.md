@@ -56,7 +56,7 @@ You *do not* need every single part on this board to make a game. The game you w
 - If you need RAM space, **add Group C components.** This will add 32 KB of RAM space.
 - If your game is larger than 2 MB and uses any amount of SRAM, **add Group D components.**
 
-<a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Advanced-Flash">Check out the wiki for visual examples.</a>
+<a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Advanced-Flash">Check out the wiki for visual examples.</a> If you want to have a fully functional board that you can configure for nearly every Genesis game, then populate all components (LEDs optional) and use the SPDT switch for SW1.
 
 ### Bypass Solder Jumpers
 
