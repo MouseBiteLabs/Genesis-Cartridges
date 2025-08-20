@@ -2,7 +2,7 @@
 
 This is a Sega Genesis/Mega Drive cartridge circuit board design that is capable of being flashed via the <a href="https://github.com/sanni/cartreader">Open Source Cart Reader (OSCR) by sanni</a>. Alternatively, you can also flash the ROM chips before soldering them to the board through the use of a programmer like the <a href="https://xgecu.myshopify.com/products/xgecu-new-t48-tl866-3gprogrammer-v12-01-support-28000-ics-for-spi-nor-nand-flash-emmc-bga153-162-169-100-221-tsop-sop-plcc">T48 programmer</a> with the <a href="https://xgecu.myshopify.com/products/100-original-xgecu-adp_f48_ex-1-tsop48-special-adapter-for-nor-flash-only-use-on-t48-tl866-3g-programmer">TSOP48 adapter</a>. This cartridge is made entirely from **brand new off the shelf components.** No donors are required, and you don't need to rely on AliExpress or eBay for parts!
 
-<img width="1281" height="934" alt="image" src="https://github.com/user-attachments/assets/154fa493-7542-434d-af7e-0724f76a0b3e" />
+<img width="2364" height="1308" alt="479816032-a30459a0-4bb5-414f-8583-e225dac3470e" src="https://github.com/user-attachments/assets/1ad2f4da-2353-4827-844a-4c358eb5f5b2" />
 
 This cartridge covers over 95% of the entire Genesis library. You can backup games up to 4 MB in size, with up to 32 KB RAM. It can also handle any ROM hack that falls into these limits, including the ever popular <a href="https://info.sonicretro.org/Sonic_3_Complete">Sonic 3 Complete</a>.
 
