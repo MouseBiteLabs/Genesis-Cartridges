@@ -56,6 +56,8 @@ You *do not* need every single part on this board to make a game. The game you w
 - If you need RAM space, **add Group C components.** This will add 32 KB of RAM space.
 - If your game is larger than 2 MB and uses any amount of SRAM, **add Group D components.**
 
+<a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Advanced-Flash">Check out the wiki for visual examples.</a>
+
 ### Bypass Solder Jumpers
 
 If your game is only 2 MB large, you will not need U3. There is a solder jumper inside the U3 footprint that needs to be bridged if this is the case.
@@ -68,7 +70,9 @@ Similarly, if your game does not use SRAM, you will not need U7 but you need to 
 
 ### ROM Size Selection (SW1)
 
-There is only one switch on this board for configuration purposes, and the setting you need to choose is pretty self-explanatory. You can either use an SPDT switch (part number shown in BOM below), or if you do not plan to reflash the board with a differently sized game in the future, you can hard-wire the selection. **This switch is only required to be configured if your board uses any amount of SRAM - ROM-only boards do not utilize this setting.**
+There is only one switch on this board for configuration purposes, and the setting you need to choose is pretty self-explanatory - **keep in mind, this is the size of the ROM file, *not* the amount of ROM space you have available on the board.** If you have both U1 and U2 populated, for example, but your ROM file is only 2 MB, you need to configure the board to the "less than or equal to 2 MB" setting.
+
+You can either use an SPDT switch (part number shown in BOM below), or if you do not plan to reflash the board with a differently sized game in the future, you can hard-wire the selection. **This switch is only required to be configured if your board uses any amount of SRAM - ROM-only boards do not utilize this setting.**
 
 In the image below, the "less than or equal to 2MB" option is selected in both cases. The resistor on the right is a zero-ohm jumper (or you can use a solder blob).
 
