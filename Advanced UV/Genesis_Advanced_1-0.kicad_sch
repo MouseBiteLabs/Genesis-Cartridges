@@ -12265,7 +12265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "74HCT74"
 			(at 107.696 104.648 0)
 			(effects
 				(font
@@ -12666,7 +12666,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 92.71 176.53 90)
 			(effects
 				(font
@@ -13047,7 +13047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "74HCT74"
 			(at 116.84 180.34 90)
 			(effects
 				(font
@@ -16318,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 142.24 152.4 0)
 			(effects
 				(font
@@ -17308,7 +17308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de0c2e71-0fe5-47d0-b073-e196921dee75")
-		(property "Reference" "CC1"
+		(property "Reference" "CC"
 			(at 70.358 140.97 0)
 			(effects
 				(font
@@ -17389,7 +17389,7 @@
 		(instances
 			(project "Genesis_Advanced_1-0"
 				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
-					(reference "CC1")
+					(reference "CC")
 					(unit 1)
 				)
 			)
@@ -17774,7 +17774,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS139"
+		(property "Value" "74HCT139"
 			(at 149.86 124.714 0)
 			(effects
 				(font
@@ -18229,7 +18229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f09e24d2-2b32-4666-ba2c-f944707db201")
-		(property "Reference" "CB1"
+		(property "Reference" "CB"
 			(at 163.068 43.18 0)
 			(effects
 				(font
@@ -18310,7 +18310,7 @@
 		(instances
 			(project "Genesis_Advanced_1-0"
 				(path "/8b2ad2bb-5cbf-4836-a7b2-1cf54b92d388"
-					(reference "CB1")
+					(reference "CB")
 					(unit 1)
 				)
 			)
@@ -18335,7 +18335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC74"
+		(property "Value" "74HCT74"
 			(at 152.146 185.928 0)
 			(effects
 				(font
