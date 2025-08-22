@@ -38,6 +38,10 @@ You can use the zipped folder at any board fabricator you like. You may also buy
 
 <a href="https://oshpark.com/shared_projects/HG0wx2nt">This board can also be ordered from OSH Park,</a> but you should sand down the edges of the cartridge to chamfer them yourself before inserting them in a console.
 
+<img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/2300fe96-6ca6-4500-a0a3-ee543712809f" />
+
+<a href="https://www.retrorgb.com/determining-the-build-quality-of-a-game-cartridge.html">(Image taken from RetroRGB)</a>
+
 ## Required Equipment
 
 - You will need basic tools, like a soldering iron, hot plate, and/or hot air rework station.
