@@ -49,7 +49,9 @@ You can use the zipped folder at any board fabricator you like. You may also buy
 
 ## How to Program
 
-<a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Preparing-the-ROM">Please check out the wiki pages on how to prepare the ROM and program the cartridge.</a>
+Please check out the wiki pages on how to prepare the ROM and program the cartridge.
+- <a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Using-the-OSCR-%28Flash-Boards%29">Using the OSCR</a>
+- <a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Using-the-T48-%28Flash-Boards%29">Using the T48</a>
 
 ## Board Configurations
 
