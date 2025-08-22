@@ -153,6 +153,12 @@ Note: SW1 is optional and can be replaced with solder bridges or zero ohm resist
 
 There are 10 spots around the border of the board on the front and back for LEDs. This includes pads for an 0603 size resistor and 0603 size LED, powered by the 5V rail. Resistor and LED selection will vary based on your own preferences, so you will have to experiment with values yourself.
 
+### LED fix for v1.0
+
+Four of the current limiting resistors for the LEDs are missing a connection to +5V on the board. Luckily, mirrored on the very opposite side of the board, there is a +5V point for each of the four resistors. You can use short jumpers to connect the front resistors to the back resistors in the following locations to make the LEDs light up:
+
+<img width="1020" height="768" alt="image" src="https://github.com/user-attachments/assets/95939d5f-cb11-4e83-bbe3-42328591182d" />
+
 ## Revision History
 
 ### v1.1 - Release
