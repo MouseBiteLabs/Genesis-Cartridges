@@ -4,7 +4,7 @@ This is a Sega Genesis/Mega Drive cartridge circuit board design that is capable
 
 <img width="2364" height="1308" alt="479816032-a30459a0-4bb5-414f-8583-e225dac3470e" src="https://github.com/user-attachments/assets/1ad2f4da-2353-4827-844a-4c358eb5f5b2" />
 
-This cartridge covers over 95% of the entire Genesis library. You can backup games up to 4 MB in size, with up to 32 KB RAM. It can also handle any ROM hack that falls into these limits, including the ever popular <a href="https://info.sonicretro.org/Sonic_3_Complete">Sonic 3 Complete</a>.
+This cartridge covers over 95% of the entire Genesis library. You can backup games up to 4 MB in size, with up to 32 KB RAM. It can also handle any ROM hack that falls into these limits, including the ever popular <a href="https://info.sonicretro.org/Sonic_3_Complete">Sonic 3 Complete</a>. Check out the <a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Game-Compatibility">Game Compatibility</a> page in the wiki for more info.
 
 All gerbers and source files can be found in this repo, as this project is fully open source. Please read all instructions before attempting the project.
 
