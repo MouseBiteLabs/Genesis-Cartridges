@@ -44,7 +44,7 @@ You can use the zipped folder at any board fabricator you like. You may also buy
 
 ## Required Equipment
 
-- You will need basic tools, like a soldering iron, hot plate, and/or hot air rework station.
+- You will need basic tools and supplies, like a soldering iron, solder, and flux.
 - You need a way to program the ROM chip(s). There are two ways I have programmed them in the past:
   - Using the <a href="https://xgecu.myshopify.com/products/xgecu-new-t48-tl866-3gprogrammer-v12-01-support-28000-ics-for-spi-nor-nand-flash-emmc-bga153-162-169-100-221-tsop-sop-plcc">T48 programmer</a> with my <a href="https://github.com/MouseBiteLabs/27C322-TL866-Adapter">27C322 to TL866 Programming Adatper</a> board. The programming adapter is compatible with the T48, and it allows you to program the 42-pin EPROMs (27C160 and 27C322) with the 40-pin T48 programmer.
   OR
@@ -56,7 +56,7 @@ You can use the zipped folder at any board fabricator you like. You may also buy
 
 ## Board Configurations
 
-You *do not* need every single part on this board to make a game. The game you want to make is mainly dependent on the ROM size and the RAM size (if any). Depending on your needs, you only need to solder on certain components, which you can find below in the BOM section.
+You *may not* need every single part on this board to make a game. The game you want to make is mainly dependent on the ROM size and the RAM size (if any). Depending on your needs, you only need to solder on certain components, which you can find below in the BOM section.
 
 - **Every board needs Group A components.** You can make games that have no RAM and are up to 4 MB large with this configuration.
 - If you need RAM space, **add Group C components.** This will add 32 KB of RAM space.
@@ -97,6 +97,8 @@ The component groups required for the build you want to make are detailed above.
 The following cart has *the maximum amount* of parts you would potentially need on a single board, plus a few extras of the passive components due to price breaks. You can remove the chips you don't need from the shopping cart before ordering, according to the component group assignments below.
 
 [mouser cart]
+
+The parts in this cart are for the through-hole versions of the parts, but there are pads if you want to use surface mount instead for the resistors, capacitors, diodes, and transistor.
 
 ### Group A - 2 MB ROM, No RAM
 
