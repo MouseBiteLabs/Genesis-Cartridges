@@ -4,7 +4,7 @@
 
 This is a Sega Genesis/Mega Drive cartridge circuit board design that uses the older UV EPROMs, 27C322 or 27C160. This is the updated version of my existing carts, ported from Eagle to KiCad with some minor changes, but fully open source. With this board, unlike the flash version, you need to program the EPROM before soldering to the board. This cartridge is made entirely from **off the shelf components.** No donors are required.
 
-<img width="2364" height="1308" alt="image" src="https://github.com/user-attachments/assets/78595a8e-6171-49bd-8c77-0db2206e060b" />
+<img width="2364" height="1308" alt="image" src="https://github.com/user-attachments/assets/c07589b4-09a4-4488-b5af-e02cd7d18901" />
 
 This cartridge covers over 95% of the entire Genesis library. You can backup games up to 4 MB in size, with up to 32 KB RAM. It can also handle any ROM hack that falls into these limits, including the ever popular <a href="https://info.sonicretro.org/Sonic_3_Complete">Sonic 3 Complete</a>. Check out the <a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Game-Compatibility">Game Compatibility</a> page in the wiki for more info.
 
@@ -121,9 +121,13 @@ There are 10 spots around the border of the board on the front and back for LEDs
 
 ## Revision History
 
-### v1.0 - Release
+### v1.1 - Release
 
-- No errors detected
+- Fixed /WR hole location to not overlap silkscreen
+
+### v1.0 - Alpha
+
+- Prototype version
 
 ## Acknowledgements
 
