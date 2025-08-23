@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Genesis/Mega Drive Advanced Flash Cartridge")
-		(date "2025-06-08")
-		(rev "1.0")
+		(date "2025-08-22")
+		(rev "1.1")
 		(company "https://github.com/MouseBiteLabs/Genesis-Cartridges")
 		(comment 1 "v1.1 - Fixed some missing LED connections to +5V")
 	)
