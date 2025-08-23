@@ -1331,7 +1331,7 @@
 		(path "/97cd0755-b1f9-4a11-a264-0261dbf2548f")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -3436,7 +3436,7 @@
 		(path "/80e3fde0-8888-4804-ae4c-52ab6e2d03c3")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -5403,7 +5403,7 @@
 		(path "/e15f4d3d-73df-4593-a2ba-1a49152ea17c")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -5639,7 +5639,7 @@
 		(path "/3bde6611-28d1-4804-84ab-ad6ba04a2487")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -7634,7 +7634,7 @@
 		(path "/851f4c0a-5f40-40de-bf1b-2682cd8e2a38")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -10222,7 +10222,7 @@
 		(path "/98dc73f3-093e-40d4-a3c9-0147f3290230")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -10634,6 +10634,7 @@
 			(uuid "86921242-c906-43db-b9cf-761ba9129efd")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/CAS-220TA--3DModel-STEP-556969.STEP"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10642,6 +10643,29 @@
 			)
 			(rotate
 				(xyz 0 0 -90)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.0mm_Drill0.7mm.wrl"
+			(offset
+				(xyz -1.75 0.1 0)
+			)
+			(scale
+				(xyz 1.1 1.9 0.5001)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.0mm_Drill0.7mm.wrl"
+			(hide yes)
+			(offset
+				(xyz 1.75 0.1 0)
+			)
+			(scale
+				(xyz 1.1 1.9 0.5)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -10717,7 +10741,7 @@
 		(path "/e5a49fbb-5c65-43ec-8f42-33adede5c23e")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -11112,6 +11136,17 @@
 			(thermal_bridge_angle 0)
 			(uuid "4fa6d422-6fd7-40b4-b1cb-60a7ec6fadbc")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.0mm_Drill0.7mm.wrl"
+			(offset
+				(xyz -1 0 0)
+			)
+			(scale
+				(xyz 1 3 0.5)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Bucketmouse:R_0603_1608Metric_Boxed"
 		(layer "F.Cu")
@@ -11185,7 +11220,7 @@
 		(path "/7d34cee8-e77b-416b-8fa8-8c0d673e7290")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -11580,6 +11615,17 @@
 			(thermal_bridge_angle 0)
 			(uuid "c30ae7c8-f018-4075-a019-5ce86f99ff53")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.0mm_Drill0.7mm.wrl"
+			(offset
+				(xyz -1 0 0)
+			)
+			(scale
+				(xyz 1 3 0.5)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Bucketmouse:R_0603_1608Metric_Boxed"
 		(layer "F.Cu")
@@ -11911,7 +11957,7 @@
 		(path "/048b05dd-0aed-4853-927c-2821b9a6ad1c")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -12153,7 +12199,7 @@
 		(path "/fdd52517-2969-43e9-b0cb-7c629fb9b9f8")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -12673,7 +12719,7 @@
 		(path "/1dc5ae99-498c-4d0a-aa7a-2ad25b45e6a8")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -13238,7 +13284,7 @@
 		(path "/4fe4324a-3cdb-4c57-af21-ba1b6a22dc9a")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -13602,7 +13648,7 @@
 		(path "/3cc1cbe6-dd49-4218-9a21-abcdab461f7a")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -14468,7 +14514,7 @@
 		(path "/900c307c-f183-49e9-bb8e-fb081c0ad43d")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
@@ -15691,7 +15737,7 @@
 		(path "/4be06646-7aff-4f7d-b672-d227e5759397")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 0.735)
 			(end 0.8 0.735)
@@ -15933,7 +15979,7 @@
 		(path "/cfacd86c-0b29-4f6c-80fa-ed69d2bde939")
 		(sheetname "Root")
 		(sheetfile "genesis_advanced_flash_1-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 -0.75)
 			(end 1.5 0.75)
