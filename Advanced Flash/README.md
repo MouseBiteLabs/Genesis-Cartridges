@@ -55,7 +55,7 @@ Please check out the wiki pages on how to prepare the ROM and program the cartri
 
 ## Board Configurations
 
-You *do not* need every single part on this board to make a game. The game you want to make is mainly dependent on the ROM size and the RAM size (if any). Depending on your needs, you only need to solder on certain components, which you can find below in the BOM section.
+You *may not* need every single part on this board to make a game. The game you want to make is mainly dependent on the ROM size and the RAM size (if any). Depending on your needs, you only need to solder on certain components, which you can find below in the BOM section.
 
 - **Every board needs Group A components.** You can make games that have no RAM and are up to 2 MB large with this configuration.
 - If you want to expand the ROM space to a full 4 MB, **add Group B components**.
