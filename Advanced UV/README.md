@@ -34,7 +34,7 @@ The zipped folder contains all the gerber files for this board. The following op
 
 You can use the zipped folder at any board fabricator you like. You may also buy the board from PCBWay using this link (disclosure: I receive 10% of the sale value to go towards future PCB orders of my own):
 
-<a href="https://www.pcbway.com/"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+<a href="https://www.pcbway.com/project/shareproject/Genesis_Mega_Drive_Advanced_UV_EPROM_Cartridge_2a6a0bd7.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
 <a href="https://oshpark.com/">This board can also be ordered from OSH Park,</a> but you should sand down the edges of the cartridge to chamfer them yourself before inserting them in a console.
 
