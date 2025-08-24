@@ -104,38 +104,38 @@ The parts in this cart are for the through-hole versions of the parts, but there
 
 ### Group A - 2 MB ROM, No RAM
 
-| Reference | Value/Part Number | Package | Description      | Source                                           |
-| --------- | ----------------- | ------- | ---------------- | ------------------------------------------------ |
-| C1        | 0.1uF             |         | Capacitor (MLCC) |                                                  |
-| CC        | 22uF              |         | Aluminum Electrolytic Capacitor |                                   |
-| U1        | 27C160 / 27C322   | DIP-42  | UV EPROM         | Search on Aliexpress, eBay                       |
+| Reference | Value/Part Number | Package       | Description                     | Source                      |
+| --------- | ----------------- | ------------- | ------------------------------- | --------------------------- |
+| C1        | 0.1uF             | 2.5mm spacing | Capacitor (MLCC)                | https://mou.sr/3JoDO29      |
+| CC        | 22uF              | 5mm x 5mm     | Aluminum Electrolytic Capacitor | https://mou.sr/4moiXKK      |
+| U1        | 27C160 / 27C322   | DIP-42        | UV EPROM                        | Search on Aliexpress, eBay  |
 
 ### Group C - Adds 32 KB of RAM for games with 2 MB of ROM or less in size
 
-| Reference | Value/Part Number | Package  | Description        | Source                                           |
-| --------- | ----------------- | -------- | ------------------ | ------------------------------------------------ |
-| B1        | CR2032            | CR2032   | Coin Cell Battery  | [https://mou.sr/3QhcXXc](https://mou.sr/3QhcXXc) |
-| C2        | 0.1uF             |          | Capacitor (MLCC)   |                                                  |
-| C4        | 0.1uF             |          | Capacitor (MLCC)   |                                                  |
-| CB        | 22uF              |          | Aluminum Electrolytic Capacitor |                                     |
-| D1        | BAT85             |          | Diode              |                                                  |
-| D2        | BAT85             |          | Diode              |                                                  |
-| D3        | BAT85             |          | Diode              |                                                  |
-| Q1        |                   |          | Transistor (NPN)   |                                                  |
-| R1        | 1k                |          | Resistor           |                                                  |
-| R2        | 100k              |          | Resistor           |                                                  |
-| R3        | 10k               |          | Resistor           |                                                  |
-| R4        | 1k                |          | Resistor           |                                                  |
-| R5        | 10k               |          | Resistor           |                                                  |
-| U2        | AS6C62256         |          | SRAM               |                                                  |
-| U4        | 74HCT139          |          | Decoder            |                                                  |
+| Reference | Value/Part Number | Package  | Description                     | Source                  |
+| --------- | ----------------- | -------- | ------------------------------- | ----------------------- |
+| B1        | CR2032       | CR2032        | Coin Cell Battery               | https://mou.sr/3QhcXXc  |
+| C2        | 0.1uF        | 2.5mm spacing | Capacitor (MLCC)                | https://mou.sr/3JoDO29  | 
+| C4        | 0.1uF        | 2.5mm spacing | Capacitor (MLCC)                | https://mou.sr/3JoDO29  |
+| CB        | 22uF         | 5mm x 5mm     | Aluminum Electrolytic Capacitor | https://mou.sr/4moiXKK  |
+| D1        | BAT85        | DO-35-2       | Diode                           | https://mou.sr/49GVT4m  |
+| D2        | BAT85        | DO-35-2       | Diode                           | https://mou.sr/49GVT4m  |
+| D3        | BAT85        | DO-35-2       | Diode                           | https://mou.sr/49GVT4m  |
+| Q1        | 2N3904       |               | Transistor (NPN)                |                                                  |
+| R1        | 1k           |               | Resistor                        |                                                  |
+| R2        | 100k         |               | Resistor                        |                                                  |
+| R3        | 10k          |               | Resistor                        |                                                  |
+| R4        | 1k           |               | Resistor                        |                                                  |
+| R5        | 10k          |               | Resistor                        |                                                  |
+| U2        | AS6C62256    | DIP-28        | SRAM                            | https://mou.sr/3HlZ0mh                           |
+| U4        | 74HCT139     | DIP-16        | Decoder                         |                                                  |
 
 ### Group D - Adds capability for larger games to utilize RAM
 
 | Reference | Value/Part Number | Package   | Description      | Source                                           |
 | --------- | ----------------- | --------- | ---------------- | ------------------------------------------------ |
-| C3        | 0.1uF             |           | Capacitor (MLCC) |                                                  |
-| U3        | 74HCT74           |           | Flip-Flop        |                                                  |
+| C3        | 0.1uF             | 2.5mm spacing | Capacitor (MLCC) | https://mou.sr/3JoDO29                       |
+| U3        | 74HCT74           | DIP-14        | Flip-Flop        |                                              |
 
 ## Adding LEDs
 
