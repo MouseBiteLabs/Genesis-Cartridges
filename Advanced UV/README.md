@@ -102,7 +102,7 @@ The following cart has *the maximum amount* of parts you would potentially need 
 
 The parts in this cart are for the through-hole versions of the parts, but there are pads if you want to use surface mount instead for the resistors, capacitors, diodes, and transistor.
 
-### Group A - 2 MB ROM, No RAM
+### Group A - Up to 4 MB ROM, No RAM
 
 | Reference | Value/Part Number | Package       | Description                     | Source                      |
 | --------- | ----------------- | ------------- | ------------------------------- | --------------------------- |
