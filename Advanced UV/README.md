@@ -64,17 +64,19 @@ You *may not* need every single part on this board to make a game. The game you 
 
 <a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki/Advanced-UV">Check out the wiki for visual examples.</a>
 
+### Picking an EPROM, and ROM Size Selection Pads
+
+If your game is only 2 MB large or less, you can use a 27C160. If your game is larger than 2 MB (but 4 MB or less), then you need to use a 27C322. These parts are only available second-hand on places like AliExpress or eBay.
+
+The setting you need to choose for these jumpers is pretty self-explanatory - **keep in mind, this is the size of the ROM file, *not* the amount of ROM space you have available on the board.** If you have a 27C322, for example, but your ROM file is only 2 MB, you need to configure the board to the "less than or equal to 2 MB" setting. Also, these pads are only required to be configured if your board uses any amount of SRAM - ROM-only boards do not utilize this setting (but it won't hurt to solder the proper selection anyway).
+
+<img width="662" height="208" alt="image" src="https://github.com/user-attachments/assets/b38e82c8-db2b-493b-87aa-caf3b5e54963" />
+
 ### Bypass Solder Jumper
 
 If your game does not use SRAM, you will not need U4 but you need to bridge the solder jumper instead.
 
 <img width="490" height="233" alt="image" src="https://github.com/user-attachments/assets/ead27a8a-c3d1-449b-9f26-211f9e14660b" />
-
-### ROM Size Selection
-
-The setting you need to choose for these jumpers is pretty self-explanatory - **keep in mind, this is the size of the ROM file, *not* the amount of ROM space you have available on the board.** If you have a 27C322, for example, but your ROM file is only 2 MB, you need to configure the board to the "less than or equal to 2 MB" setting. Also, these pads are only required to be configured if your board uses any amount of SRAM - ROM-only boards do not utilize this setting (but it won't hurt to solder the proper selection anyway).
-
-<img width="662" height="208" alt="image" src="https://github.com/user-attachments/assets/b38e82c8-db2b-493b-87aa-caf3b5e54963" />
 
 ## Estimating Battery Life
 
@@ -104,18 +106,36 @@ The parts in this cart are for the through-hole versions of the parts, but there
 
 | Reference | Value/Part Number | Package | Description      | Source                                           |
 | --------- | ----------------- | ------- | ---------------- | ------------------------------------------------ |
+| C1        | 0.1uF             |         | Capacitor (MLCC) |                                                  |
+| CC        | 22uF              |         | Aluminum Electrolytic Capacitor |                                   |
+| U1        | 27C160 / 27C322   | DIP-42  | UV EPROM         | Search on Aliexpress, eBay                       |
 
 ### Group C - Adds 32 KB of RAM for games with 2 MB of ROM or less in size
 
 | Reference | Value/Part Number | Package  | Description        | Source                                           |
 | --------- | ----------------- | -------- | ------------------ | ------------------------------------------------ |
 | B1        | CR2032            | CR2032   | Coin Cell Battery  | [https://mou.sr/3QhcXXc](https://mou.sr/3QhcXXc) |
-
+| C2        | 0.1uF             |          | Capacitor (MLCC)   |                                                  |
+| C4        | 0.1uF             |          | Capacitor (MLCC)   |                                                  |
+| CB        | 22uF              |          | Aluminum Electrolytic Capacitor |                                     |
+| D1        | BAT85             |          | Diode              |                                                  |
+| D2        | BAT85             |          | Diode              |                                                  |
+| D3        | BAT85             |          | Diode              |                                                  |
+| Q1        |                   |          | Transistor (NPN)   |                                                  |
+| R1        | 1k                |          | Resistor           |                                                  |
+| R2        | 100k              |          | Resistor           |                                                  |
+| R3        | 10k               |          | Resistor           |                                                  |
+| R4        | 1k                |          | Resistor           |                                                  |
+| R5        | 10k               |          | Resistor           |                                                  |
+| U2        | AS6C62256         |          | SRAM               |                                                  |
+| U4        | 74HCT139          |          | Decoder            |                                                  |
 
 ### Group D - Adds capability for larger games to utilize RAM
 
 | Reference | Value/Part Number | Package   | Description      | Source                                           |
 | --------- | ----------------- | --------- | ---------------- | ------------------------------------------------ |
+| C3        | 0.1uF             |           | Capacitor (MLCC) |                                                  |
+| U3        | 74HCT74           |           | Flip-Flop        |                                                  |
 
 ## Adding LEDs
 
