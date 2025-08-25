@@ -96,9 +96,9 @@ The component groups required for the build you want to make are detailed above.
 
 ### Mouser Shopping Cart
 
-The following cart has *the maximum amount* of parts you would potentially need on a single board, plus a few extras of the passive components due to price breaks. You can remove the chips you don't need from the shopping cart before ordering, according to the component group assignments below.
+The following cart has *the maximum amount* of parts you would potentially need on a single board, plus a few extras of the passive components due to price breaks. You can remove the chips you don't need from the shopping cart before ordering, according to the component group assignments below. **This cart does not include the UV EPROM you will need, as they are not available on Mouser.**
 
-[mouser cart]
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e4c93a8a57
 
 The parts in this cart are for the through-hole versions of the parts, but there are pads if you want to use surface mount instead for the resistors, capacitors, diodes, and transistor.
 
