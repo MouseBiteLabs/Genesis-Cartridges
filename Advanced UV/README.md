@@ -121,7 +121,7 @@ The parts in this cart are for the through-hole versions of the parts, but there
 | D1        | BAT85        | DO-35-2       | Diode                           | https://mou.sr/49GVT4m  |
 | D2        | BAT85        | DO-35-2       | Diode                           | https://mou.sr/49GVT4m  |
 | D3        | BAT85        | DO-35-2       | Diode                           | https://mou.sr/49GVT4m  |
-| Q1        | 2N3904       | TO-92-3       | Transistor (NPN)                | https://mou.sr/3eLTZr0  |
+| Q1        | 2N3904       | TO-92-3       | Transistor (NPN)                | https://mou.sr/43xUgCR  |
 | R1        | 1k           | Axial, 3.3mm  | Resistor                        | https://mou.sr/4lIm13d  |
 | R2        | 100k         | Axial, 3.3mm  | Resistor                        | https://mou.sr/3NOD0De  |
 | R3        | 10k          | Axial, 3.3mm  | Resistor                        | https://mou.sr/4kr1K2t  |
