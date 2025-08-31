@@ -153,7 +153,7 @@ There are 10 spots around the border of the board on the front and back for LEDs
 
 ## Acknowledgements
 
-- Continual thanks to all in the nesdev community for their resources, design tips, and support throughout the past half-decade.
+- Continual thanks to all in the nesdev community for their resources, design tips, and support throughout the past decade.
 
 ## License
 
