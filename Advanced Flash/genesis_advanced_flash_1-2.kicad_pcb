@@ -116,7 +116,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "genesis_advanced_flash_1-1_GERBERS/")
+			(outputdirectory "genesis_advanced_flash_1-2_GERBERS/")
 		)
 	)
 	(net 0 "")
@@ -16318,7 +16318,7 @@
 			)
 		)
 	)
-	(gr_text "GENESIS/MEGA DRIVE FLASH CART PCB"
+	(gr_text "GENESIS/MD/32X FLASH CART PCB"
 		(at 184.7469 131.8514 0)
 		(layer "F.SilkS")
 		(uuid "44f868fe-c3c8-44ae-97bd-2d3d2c319a4b")
