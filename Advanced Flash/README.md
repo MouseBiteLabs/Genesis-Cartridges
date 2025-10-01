@@ -44,7 +44,7 @@ You can use the zipped folder at any board fabricator you like. You may also buy
 
 <a href="https://oshpark.com/shared_projects/HG0wx2nt">This board can also be ordered from OSH Park,</a> but you should sand down the edges of the cartridge to chamfer them yourself before inserting them in a console.
 
-<a href="https://oshpark.com/shared_projects/PbgHOTz9">Here is the OSH Park page for the untested v1.2 boards.</a>
+<a href="https://oshpark.com/shared_projects/83XjKdnh">Here is the OSH Park page for the untested v1.2 boards.</a>
 
 <img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/2300fe96-6ca6-4500-a0a3-ee543712809f" />
 
