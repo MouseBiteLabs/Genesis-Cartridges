@@ -8,6 +8,14 @@ This cartridge covers over 95% of the entire Genesis library. You can backup gam
 
 All gerbers and source files can be found in this repo, as this project is fully open source. Please read all instructions before attempting the project.
 
+## Pending Version Update
+
+Currently, v1.2 is available for download. It should operate exactly the same as v1.1, but I have not personally verified the new design yet as I have not ordered boards to try them out. The change to v1.2 is to allow these boards to be flashed with the OSCR as 32X cartridges, **but they will still be usable as regular Genesis/Mega Drive cartridges!** No new components have been added, it only needed a simple rewiring of an unused portion of U3.
+
+I do not own a 32X to test this feature out, so if you would like to test out v1.2 for me with a 32X, feel free and let me know your results. Once I verify that my changes do not affect Genesis/Mega Drive compatibility (and they should not!) I will fully update everything here to assume v1.2 is the default version going forward.
+
+For now, **v1.1 is perfectly acceptable for Genesis/Mega Drive games.**
+
 ## Important Things Before You Start
 
 1) <a href="https://github.com/MouseBiteLabs/Genesis-Cartridges/wiki">Please review the wiki for more information about using the circuit boards, instructions for how to program them, and example builds.</a>
@@ -163,6 +171,10 @@ Four of the current limiting resistors for the LEDs are missing a connection to 
 
 ## Revision History
 
+### v1.2
+
+- Added compatibility for flashing 32X games via the OSCR
+
 ### v1.1 - Release
 
 - Fix LED resistor connections on the back of the board
@@ -176,6 +188,7 @@ Four of the current limiting resistors for the LEDs are missing a connection to 
 
 - Huge thanks to sanni for firstly creating the OSCR, and secondly for adding programming support for the cartridges.
 - Additionally huge thanks to agi from the discord community for his work on adding flash support for these boards to the OSCR! You have made this cartridge so much better through your hard work.
+- ANOTHER thanks to agi for figuring out 32X compatibility required for v1.2.
 - Continual thanks to all in the nesdev community for their resources, design tips, and support throughout the past half-decade.
 
 ## License
