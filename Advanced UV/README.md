@@ -114,7 +114,7 @@ The parts in this cart are for the through-hole versions of the parts, but there
 
 | Reference | Value/Part Number | Package  | Description                     | Source                  |
 | --------- | ----------------- | -------- | ------------------------------- | ----------------------- |
-| B1        | CR2032       | CR2032        | Coin Cell Battery               | https://mou.sr/3QhcXXc  |
+| B1        | CR2032       | CR2032        | Coin Cell Battery               | https://mou.sr/3Wj2m0G  |
 | C2        | 0.1uF        | 5mm spacing   | Capacitor (MLCC)                | https://mou.sr/4mvAwIR  |
 | C4        | 0.1uF        | 5mm spacing   | Capacitor (MLCC)                | https://mou.sr/4mvAwIR  |
 | CB        | 22uF         | 5mm x 5mm     | Aluminum Electrolytic Capacitor | https://mou.sr/4moiXKK  |
