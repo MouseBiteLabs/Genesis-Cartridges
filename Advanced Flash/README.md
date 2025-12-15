@@ -139,7 +139,7 @@ https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ea748d2d57
 
 | Reference | Value/Part Number | Package  | Description        | Source                                           |
 | --------- | ----------------- | -------- | ------------------ | ------------------------------------------------ |
-| B1        | CR2032            | CR2032   | Coin Cell Battery  | [https://mou.sr/3QhcXXc](https://mou.sr/3QhcXXc) |
+| B1        | CR2032            | CR2032   | Coin Cell Battery  | [https://mou.sr/3Wj2m0G](https://mou.sr/3Wj2m0G) |
 | C4        | 0.1uF             | 0603     | Capacitor (MLCC)   | [https://mou.sr/3ENc15O](https://mou.sr/3ENc15O) |
 | C5        | 0.1uF             | 0603     | Capacitor (MLCC)   | [https://mou.sr/3ENc15O](https://mou.sr/3ENc15O) |
 | C7        | 0.1uF             | 0603     | Capacitor (MLCC)   | [https://mou.sr/3ENc15O](https://mou.sr/3ENc15O) |
